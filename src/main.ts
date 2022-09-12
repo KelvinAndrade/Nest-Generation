@@ -9,6 +9,6 @@ process.env.TZ = '-03:00'
 app.useGlobalPipes(new ValidationPipe())
 app.enableCors()
 
-  await app.listen(3550);
+  await app.listen(3450);
 }
 bootstrap();
